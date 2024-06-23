@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Goldman-Bold";
+    src: url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.eot");
+    src: url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.svg#Goldman Bold")format("svg");
+}
+
+@font-face {
+    font-family: "Goldman-Regular";
+    src: url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.eot");
+    src: url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.svg#Goldman Regular")format("svg");
+}
+
+@font-face {
+    font-family: "Harlow Solid Italic";
+    src: url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.eot");
+    src: url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.svg#Harlow Solid Italic")format("svg");
+}
+
+@font-face {
+    font-family: "Gupter-Regular";
+    src: url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.eot");
+    src: url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.svg#Gupter Regular")format("svg");
+}
+
+@font-face {
+    font-family: "Gupter-Bold";
+    src: url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.eot");
+    src: url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.svg#Gupter Bold")format("svg");
+}
+
+
+.reg {
+    background-color: #153D3F;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 9px 39px;
+    font-family: "Goldman-Bold";
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 28px;
+}
+
+.imag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imag img {
+    width: 40%;
+    height: 42vh;
+    border-radius: 9px;
+}
+
+.para {
+    margin: 5%;
+    text-align: justify;
+    line-height: 1.3;
+    font-size: 1.3em;
+}
+
+@media only screen and (max-width: 767px) {
+    .reg {
+        background-color: #153D3F;
+        color: #fff;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 1.6em;
+        padding: 9px 39px;
+        font-family: "Goldman-Bold";
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        margin: 28px;
+    }
+
+    .imag {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .imag img {
+        width: 90%;
+        height: 35vh;
+        border-radius: 9px;
+        object-fit: inherit;
+    }
+
+    .para {
+        margin: 5%;
+        text-align: justify;
+        line-height: 1.3;
+        font-size: 0.9em;
+    }
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+    body {
+        display: none;
+    }
+}

@@ -1,0 +1,333 @@
+/* font faces */
+@font-face {
+  font-family: "Goldman-Bold";
+  src: url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.eot");
+  src: url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.svg#Goldman Bold")format("svg");
+}
+
+@font-face {
+  font-family: "Goldman-Regular";
+  src: url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.eot");
+  src: url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.svg#Goldman Regular")format("svg");
+}
+
+@font-face {
+  font-family: "Harlow Solid Italic";
+  src: url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.eot");
+  src: url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.svg#Harlow Solid Italic")format("svg");
+}
+
+@font-face {
+  font-family: "Gupter-Regular";
+  src: url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.eot");
+  src: url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.svg#Gupter Regular")format("svg");
+}
+
+@font-face {
+  font-family: "Gupter-Bold";
+  src: url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.eot");
+  src: url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.svg#Gupter Bold")format("svg");
+}
+
+/* Resetting default margin and padding */
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  background-color: #E2EDED;
+}
+
+
+/* Basic styles for the navigation bar */
+nav {
+  background-color: #c7dbdd;
+  color: #153D3F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  width: 230px;
+  height: 60px;
+}
+
+/* Styling for the navigation links */
+.nav-links {
+  background-color: #c7dbdd;
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  list-style: none;
+  display: flex;
+  font-family: "Goldman-Bold", Helvetica;
+  font-weight: 700;
+  color: #153d3f;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #153D3F;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.nav-links li a.active {
+  font-family: "Harlow Solid Italic";
+  /* Change font style */
+  color: #FC3497;
+  /* Change font color */
+}
+
+/* footer */
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #75A8AB;
+  color: white;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Goldman-Bold';
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+
+.social-icons img {
+  height: 30px;
+  margin-left: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.section {
+  flex-basis: 30%;
+}
+
+.section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: "Gupter-Regular";
+}
+
+.section ul {
+  background-color: #75A8AB;
+  list-style-type: none;
+  padding: 0;
+}
+
+.section li {
+  margin-bottom: 5px;
+}
+
+.section a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: white;
+}
+
+.funame {
+  background-color: #102a2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0%;
+  z-index: 2;
+}
+
+.funame p {
+  color: #fff;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 5px;
+}
+
+nav .log {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+  nav {
+    visibility: visible;
+    background-color: #c7dbdd;
+    color: #153D3F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+
+  .logo {
+    width: 185px;
+    height: 50px;
+    margin-left: -15px;
+  }
+
+  nav .log {
+    visibility: visible;
+    position: absolute;
+    width: 8%;
+    height: 8%;
+    left: 87%;
+    top: 1.5%;
+  }
+
+  /* Styling for the navigation links */
+  .nav-links {
+    display: none;
+
+  }
+
+  .nav-links li {
+    margin-right: 20px;
+  }
+
+  .nav-links li a {
+    color: #153D3F;
+    text-decoration: none;
+  }
+
+  .nav-links li a:hover {
+    text-decoration: underline;
+  }
+
+  .nav-links li a.active {
+    font-family: "Harlow Solid Italic";
+    /* Change font style */
+    color: #FC3497;
+    /* Change font color */
+  }
+
+
+
+  /* footer */
+  .container {
+    font-family: Arial, sans-serif;
+    background-color: #75A8AB;
+    color: white;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .header {
+    display: block;
+    font-family: 'Goldman-Bold';
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .social-icons img {
+    margin: 15% 0% 15% 0%;
+    height: 30px;
+
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  .section {
+    flex-basis: 30%;
+  }
+
+  .section h2 {
+    font-size: 1em;
+    margin-bottom: 10px;
+    font-family: "Gupter-Regular";
+  }
+
+  .section ul {
+    background-color: #75A8AB;
+    list-style-type: none;
+    padding: 0;
+    font-size: 0.79em;
+    line-height: 1;
+  }
+
+  .section li {
+    margin-bottom: 5px;
+  }
+
+  .section a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.7em;
+    color: white;
+  }
+
+
+  .funame {
+    background-color: #102a2b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .funame p {
+    color: #fff;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 5px;
+  }
+
+}

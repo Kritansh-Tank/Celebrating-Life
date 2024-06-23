@@ -1,0 +1,255 @@
+.fem {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 27px auto;
+  padding: 20px;
+  padding-right: 42px;
+  background-color: #c7dbdd;
+  border-radius: 16px;
+  box-shadow: 4px 7px 9px rgba(0, 0, 0, 48%);
+}
+
+.fem h2 {
+  text-align: center;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.questions {
+  margin-top: 20px;
+}
+
+.questions p {
+  margin: 5px 0;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.questions div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.questions input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.reg {
+  background-color: #153D3F;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 31px;
+  padding: 9px 39px;
+  font-family: "Goldman-Bold";
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: 28px;
+}
+
+.dropdown {
+  position: relative;
+  width: 200px;
+  /* Adjust the width as needed */
+}
+
+.dropdown-select {
+  position: relative;
+}
+
+.dropdown-select select {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+.dropdown-select:after {
+  content: "\25BC";
+  /* Unicode character for the down arrow */
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  font-size: 12px;
+  pointer-events: none;
+}
+
+.net {
+  color: red;
+}
+
+.net img {
+  position: relative;
+  width: 60%;
+  height: 100vh;
+  left: 20%;
+  padding-top: 0%;
+  margin-top: 0%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: none;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #c7dbdd;
+  color: black;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+.video-container {
+  width: 640px;
+  /* Adjust the width as needed */
+  margin: 0 auto;
+  /* Center the video horizontally */
+}
+
+video {
+  width: 100%;
+  /* Make the video responsive */
+  max-width: 100%;
+  /* Ensure the video doesn't exceed its container */
+  height: auto;
+  /* Maintain aspect ratio */
+  background-color: #000;
+  /* Set a background color for the video player */
+  margin-top: 5%;
+}
+
+.myIframe {
+  width: 100%; /* or any other value */
+  height: 362px;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    display: contents;
+  }
+
+  .navbar a {
+    display: none;
+  }
+
+  .navbar a.icon {
+    float: right;
+    display: flex;
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    top: 2%;
+    right: 0%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar.responsive {
+    position: relative;
+  }
+
+  .navbar.responsive .icon {
+    float: right;
+    display: flex;
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    top: 2%;
+    right: 0%;
+  }
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
+
+  .net img {
+    width: 80%;
+    height: 50vh;
+    margin-top: 2%;
+    left: 10%;
+  }
+
+  .video-container {
+    width: 96%;
+    /* Adjust the width as needed */
+    margin: 0 auto;
+    /* Center the video horizontally */
+  }
+
+  video {
+    width: 100%;
+    /* Make the video responsive */
+    max-width: 100%;
+    /* Ensure the video doesn't exceed its container */
+    height: auto;
+    /* Maintain aspect ratio */
+    background-color: #000;
+    /* Set a background color for the video player */
+  }
+
+  .myIframe {
+    width: 100%; /* or any other value */
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  body {
+      display: none;
+  }
+}

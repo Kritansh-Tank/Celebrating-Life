@@ -1,0 +1,401 @@
+@font-face {
+  font-family: "Goldman-Bold";
+  src: url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.eot");
+  src: url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/6e204c3e121cc5ee225196ec6813e60c.svg#Goldman Bold")format("svg");
+}
+
+@font-face {
+  font-family: "Goldman-Regular";
+  src: url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.eot");
+  src: url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/e1a20d87e1d131d3470b2a4df2e31c27.svg#Goldman Regular")format("svg");
+}
+
+@font-face {
+  font-family: "Harlow Solid Italic";
+  src: url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.eot");
+  src: url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/208c60a0a6b9e5ebbc434f9f24c2aeae.svg#Harlow Solid Italic")format("svg");
+}
+
+@font-face {
+  font-family: "Gupter-Regular";
+  src: url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.eot");
+  src: url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/7e9bc8a493d3751b77eca21226ef0e54.svg#Gupter Regular")format("svg");
+}
+
+@font-face {
+  font-family: "Gupter-Bold";
+  src: url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.eot");
+  src: url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/4d7fa665778f5a9190babb150616922a.svg#Gupter Bold")format("svg");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.register {
+  text-align: center;
+  max-width: 100%;
+  margin-top: 27px;
+}
+
+.register h2 {
+  text-shadow: 2px 2px 0px rgb(0 0 0 / 50%);
+  font-family: "Goldman-Bold";
+  color: #153d3f;
+  font-weight: bold;
+  font-size: 182%;
+  margin-bottom: 2%;
+}
+
+.register p {
+  color: #fc3497;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Goldman-Regular";
+}
+
+.para {
+  background-color: #b1e5eb;
+  padding: 8px 37px;
+  border-radius: 31px;
+
+}
+
+.watch {
+  background-color: #b1e5eb;
+  padding: 8px 37px;
+  border-radius: 31px;
+  font-size: 86%;
+
+}
+
+.list {
+  background-color: #b1e5eb;
+  padding: 2px 1px;
+  display: inline-flex;
+  width: 60%;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.reg {
+  background-color: #153D3F;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 31px;
+  padding: 9px 39px;
+  font-family: "Goldman-Bold";
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  margin: 28px;
+}
+
+.register ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.register li {
+  margin-bottom: 10px;
+}
+
+/* button */
+.startbtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 4% 0%;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #153d3f;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: "Goldman-Bold";
+}
+
+.btn:hover {
+  background-color: #fc3497;
+}
+
+.btn-text {
+  margin-right: 8px;
+}
+
+.btn-arrow {
+  font-size: 20px;
+}
+
+
+.video-container {
+  width: 640px;
+  /* Adjust the width as needed */
+  margin: 0 auto;
+  /* Center the video horizontally */
+}
+
+video {
+  width: 100%;
+  /* Make the video responsive */
+  max-width: 100%;
+  /* Ensure the video doesn't exceed its container */
+  height: auto;
+  /* Maintain aspect ratio */
+  background-color: #000;
+  /* Set a background color for the video player */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: none;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #c7dbdd;
+  color: black;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .navbar {
+    display: contents;
+  }
+
+  .navbar a {
+    display: none;
+  }
+
+  .navbar a.icon {
+    float: right;
+    display: flex;
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    top: 3%;
+    right: 3%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .navbar.responsive {
+    position: relative;
+  }
+
+  .navbar.responsive .icon {
+    float: right;
+    display: flex;
+    position: absolute;
+    width: 5vh;
+    height: 4vh;
+    top: 3%;
+    right: 3%;
+  }
+
+  .navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .register {
+    text-align: center;
+    max-width: 100%;
+    margin-top: 27px;
+  }
+
+  .register h2 {
+    text-shadow: 1px 0px 0px rgb(0 0 0 / 50%);
+    font-family: "Goldman-Bold";
+    color: #153d3f;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 4%;
+  }
+
+  .register p {
+    color: #fc3497;
+    margin-top: 2%;
+    margin-bottom: 7%;
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  .para {
+    background-color: #b1e5eb;
+    padding: 6px 16px;
+    border-radius: 31px;
+
+  }
+
+  .watch {
+    background-color: #b1e5eb;
+    padding: 6px 16px;
+    border-radius: 31px;
+    font-size: 86%;
+
+  }
+
+  .list {
+    background-color: #b1e5eb;
+    padding: 2px 1px;
+    display: inline-flex;
+    width: 100%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 0;
+  }
+
+  .reg {
+    background-color: #153D3F;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.6em;
+    padding: 9px 39px;
+    font-family: "Goldman-Bold";
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 28px;
+  }
+
+  .register ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .register li {
+    margin-bottom: 10px;
+  }
+
+  .video-container {
+    width: 96%;
+    /* Adjust the width as needed */
+    margin: 0 auto;
+    /* Center the video horizontally */
+  }
+
+  video {
+    width: 100%;
+    /* Make the video responsive */
+    max-width: 100%;
+    /* Ensure the video doesn't exceed its container */
+    height: auto;
+    /* Maintain aspect ratio */
+    background-color: #000;
+    /* Set a background color for the video player */
+  }
+
+  /* button */
+  .startbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4% 0%;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #153d3f;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: "Goldman-Bold";
+  }
+
+  .btn:hover {
+    background-color: #fc3497;
+  }
+
+  .btn-text {
+    margin-right: 8px;
+  }
+
+  .btn-arrow {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  body {
+    display: none;
+  }
+}
